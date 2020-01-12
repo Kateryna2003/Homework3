@@ -1,0 +1,34 @@
+package example;
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 1;
+        int max=5;
+
+        while (max>=a) {
+            String space="";
+            String star="";
+            for (int j = 0; j <max-a; j++) {space+=" ";};
+            for (int i = max; i >max-a; i--) {star+="*";};
+            System.out.println(space+star);
+            a++;
+        }
+
+        a = 1;
+        while (max >= a) {
+            String space = "";
+            String star = "";
+            for (int j = max; j > max - a; j--) {
+                space += " ";
+            }
+            ;
+            for (int i = 0; i < max - a; i++) {
+                star += "*";
+            }
+            ;
+            System.out.println(space + star);
+            a++;
+        }
+
+    }
+}
