@@ -1,0 +1,27 @@
+package Main;
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 1;
+        while (a <= 5 ) {
+            int number = a;
+            while (number > 0) {
+                System.out.print("* ");              
+                number--;
+            }
+            a++;
+
+            System.out.println();
+        }
+        a = 4;
+        while (a >= 1 ) {
+            int number = a;
+            while (number > 0) {
+                System.out.print("* ");
+                number--;
+            }
+            a--;
+            System.out.println();
+        }
+    }
+}
