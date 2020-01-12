@@ -1,0 +1,16 @@
+package task2;
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 5;
+        while (a >= 1) {
+            int number = a;
+            while (number > 0) {
+                System.out.print("* ");
+                number--;
+            }
+            a--;
+            System.out.println();
+        }
+    }
+}
