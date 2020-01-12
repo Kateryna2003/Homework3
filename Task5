@@ -1,0 +1,21 @@
+package task2;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int r;
+            for (r=0; r<2; r++) {
+                int i = 0;
+                int max = 3;
+                while (i < max) {
+                    String place = "";
+                    String star = "";
+                    for (int j = 0; j < max - i; j++) place += " ";
+                    for (int j = 0; j < 2 * i + 1; j++) star += "*";
+                    System.out.println(place + star);
+                    i++;
+                }
+            }
+        }
+    }
+	
